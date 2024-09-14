@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #b2dff3;
+  font-family: "Poppins", sans-serif;
+}
+
+#scrim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+#controls {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #264653;
+  padding: 10px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  color: #fafafa;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  flex-grow: 1;
+  background-color: #89cff0;
+}
+
+input[type="range"] {
+  accent-color: #f4a261;
+}
+
+#branchSizeValue {
+  font-weight: bold;
+  color: #264653;
+}
